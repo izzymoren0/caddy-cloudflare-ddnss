@@ -1,11 +1,11 @@
 name: Delete old workflow runs
 on:
-#  workflow_dispatch:
-#    inputs:
-#      logLevel:
-#        description: 'Log level'
-#        required: true
-#        default: 'info'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'info'
 
 # Run monthly, at 02:00 on the 1st day of month
   schedule:
